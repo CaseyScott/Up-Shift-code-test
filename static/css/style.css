@@ -1,6 +1,6 @@
 body {
   font-family: 'Lato';
-
+  background: #d2d3d4;
 }
 
 h1,
@@ -25,14 +25,12 @@ h6 {
   background-color: #000 !important;
 }
 
-.rounded-pill {
-  border-radius: 5rem;
-}
-
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #7d97cd;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 .navbar-custom .navbar-brand {
@@ -68,13 +66,13 @@ header.masthead .masthead-content {
 /* color of title */
 header.masthead .masthead-content .masthead-heading {
   font-size: 4rem;
-  color: black;
+  color: #212529;
 }
 
 /*color of subtitle */
 .lead {
   font-size: 2rem;
-  color: black;
+  color: #212529;
 }
 
 @media (min-width: 992px) {
@@ -96,4 +94,77 @@ header.masthead .masthead-content .masthead-heading {
 
 .display-4 {
   padding-top: 2rem ;
+  margin: 10px;
+}
+
+.rounded-circle {
+  border-radius: 5%!important;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+@media (min-width: 892px) {
+  .p-5 .vertical {
+    margin: 2rem;
+  }
+}
+
+/* footer socials */
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+  background: #007bb5;;
+  color: white;
+}
+
+/* Github */
+.fa-github {
+  background: #fff;
+  color: #000;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
 }
