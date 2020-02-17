@@ -1,6 +1,7 @@
 body {
   font-family: 'Lato';
-  background: #d2d3d4;
+  background: #070707;
+  /* background: #d2d3d4; */
 }
 
 h1,
@@ -10,9 +11,12 @@ h4,
 h5,
 h6 {
   font-family: 'Catamaran';
-  font-weight: 800 !important;
+  font-weight: 700 !important;
 }
 
+p {
+  color: #9d9fa2;
+}
 .btn-xl {
   text-transform: uppercase;
   padding: 1.5rem 3rem;
@@ -28,7 +32,7 @@ h6 {
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #7d97cd;
+  background-color: #00aeef;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
 }
@@ -66,13 +70,15 @@ header.masthead .masthead-content {
 /* color of title */
 header.masthead .masthead-content .masthead-heading {
   font-size: 4rem;
-  color: #212529;
+  color: #ffffff;
+  /* color: #212529; */
 }
 
 /*color of subtitle */
 .lead {
   font-size: 2rem;
-  color: #212529;
+  color: #9d9fa2;
+  /* color: #212529; */
 }
 
 @media (min-width: 992px) {
@@ -92,9 +98,12 @@ header.masthead .masthead-content .masthead-heading {
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
 }
 
+/* not just for gravity riders */
 .display-4 {
   padding-top: 2rem ;
   margin: 10px;
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 .rounded-circle {
@@ -170,5 +179,5 @@ header.masthead .masthead-content .masthead-heading {
 }
 
 .bg-image {
-  border-radius: 10px;
+  border-radius: 30px;
 }
