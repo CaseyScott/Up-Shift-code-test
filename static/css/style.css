@@ -16,6 +16,7 @@ h6 {
 
 p {
   color: #9d9fa2;
+  font-size: 1rem;
 }
 .btn-xl {
   text-transform: uppercase;
@@ -76,8 +77,9 @@ header.masthead .masthead-content .masthead-heading {
 
 /*color of subtitle */
 .lead {
+  font-weight: 600;
   font-size: 2rem;
-  color: #9d9fa2;
+  color: #bb4804;
   /* color: #212529; */
 }
 
@@ -102,7 +104,7 @@ header.masthead .masthead-content .masthead-heading {
 .display-4 {
   padding-top: 2rem ;
   margin: 10px;
-  color: #ffffff;
+  color: #e8f0f4;
   text-decoration: underline;
 }
 
@@ -180,4 +182,12 @@ header.masthead .masthead-content .masthead-heading {
 
 .bg-image {
   border-radius: 30px;
+ 
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 4px solid #4e451d;
 }
